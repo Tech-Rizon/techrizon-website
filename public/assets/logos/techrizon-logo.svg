@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .sun {{
+      animation: rise 2s ease-in-out infinite alternate;
+    }}
+    @keyframes rise {{
+      from {{ transform: translateY(10px); opacity: 0.5; }}
+      to {{ transform: translateY(0px); opacity: 1; }}
+    }}
+  </style>
+  <g transform="translate(20, 60)">
+    <path d="M40 60H120C130 60 140 50 140 40C140 30 130 20 120 20H115C112 10 104 0 90 0C76 0 65 10 63 20H60C50 20 40 30 40 40C40 50 50 60 60 60Z" fill="#C0C0C0"/>
+    <text x="70" y="45" font-family="Verdana" font-size="18" fill="black" text-anchor="middle">TECH</text>
+    <g class="sun" transform="translate(100, -10)">
+      <circle cx="0" cy="0" r="10" fill="#DAA520"/>
+      <line x1="0" y1="-15" x2="0" y2="-25" stroke="#DAA520" stroke-width="2"/>
+      <line x1="10" y1="0" x2="20" y2="0" stroke="#DAA520" stroke-width="2"/>
+      <line x1="0" y1="15" x2="0" y2="25" stroke="#DAA520" stroke-width="2"/>
+      <line x1="-10" y1="0" x2="-20" y2="0" stroke="#DAA520" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
