@@ -6,7 +6,7 @@ A modern, responsive website for TechRizon, showcasing cybersecurity services an
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://techrizon.com](https://techrizon.com) (will be updated after deployment)
+Visit the live website: [https://techrizon.com](https://techrizon.com)
 
 ## 🌟 Featured Ventures
 
